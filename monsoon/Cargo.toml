@@ -1,6 +1,6 @@
 [package]
 name = "monsoon"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2021"
 authors = ["Jiri Pospisil <jiri@jpospisil.com>"]
 description = "Monsoon is a library for accessing weather data produced by The Norwegian Meteorological Institute. Most notably, this data is used on Yr.no."
