@@ -1,6 +1,6 @@
-use std::{collections::VecDeque};
+use std::collections::VecDeque;
 
-use image::{DynamicImage};
+use image::DynamicImage;
 use tui::{
     backend::Backend,
     buffer::Buffer,
@@ -13,7 +13,7 @@ use tui::{
     widgets::{Block, Borders, Paragraph, Tabs, Widget},
     Frame,
 };
-use viuer::{Config};
+use viuer::Config;
 
 use crate::app::{App, Location};
 
@@ -148,7 +148,7 @@ fn draw_current_tab_weather(app: &mut App, frame: &mut Frame<impl Backend>, chun
                     let image = Image::new(Some(block), image);
                     frame.render_widget(image, row_column_chunks[column_idx]);
                 } else {
-                    let paragraph = Paragraph::new(&**column_text).alignment(Alignment::Center);
+                    let paragraph = Paragraph::new(&**column_text).alignment(Alignment::Left);
                     frame.render_widget(paragraph, row_column_chunks[column_idx]);
                 }
             } else {
@@ -157,7 +157,7 @@ fn draw_current_tab_weather(app: &mut App, frame: &mut Frame<impl Backend>, chun
                     style = style.add_modifier(Modifier::BOLD);
                 }
                 let span = Span::styled(column_text, style);
-                let paragraph = Paragraph::new(span).alignment(Alignment::Center);
+                let paragraph = Paragraph::new(span).alignment(Alignment::Left);
                 frame.render_widget(paragraph, row_column_chunks[column_idx]);
             }
         }
