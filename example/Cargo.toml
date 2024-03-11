@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 monsoon = { path = "../monsoon", default-features = false }
-serde = { version = "1.0.152", features = ["derive"], default-features = false }
+serde = { version = "1.0.156", features = ["derive"], default-features = false }
 serde_json = { version = "1.0.99", default-features = false }
 tokio = { version = "1.26.0", features = ["macros", "rt", "rt-multi-thread"], default-features = false }
 tower = { version = "0.4.13", default-features = false }
