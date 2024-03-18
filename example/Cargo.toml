@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 monsoon = { path = "../monsoon", default-features = false }
 serde = { version = "1.0.156", features = ["derive"], default-features = false }
-serde_json = { version = "1.0.99", default-features = false }
+serde_json = { version = "1.0.114", default-features = false }
 tokio = { version = "1.26.0", features = ["macros", "rt", "rt-multi-thread"], default-features = false }
 tower = { version = "0.4.13", default-features = false }
 tui = { version = "0.19.0", git = "https://github.com/jiripospisil/tui-rs.git", rev = "81d077564e8e8058", default-features = false , features = ["crossterm"] }

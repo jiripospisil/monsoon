@@ -12,7 +12,7 @@ license = "MIT"
 chrono = { version = "0.4.35", features = ["serde", "clock"], default-features = false }
 reqwest = { version = "0.11.25", features = ["gzip", "default-tls"], default-features = false }
 serde = { version = "1.0.156", features = ["derive"], default-features = false }
-serde_json = { version = "1.0.99", default-features = false }
+serde_json = { version = "1.0.114", default-features = false }
 thiserror = { version = "1.0.39", default-features = false }
 tower-service = { version = "0.3.2", default-features = false }
 
