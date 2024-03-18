@@ -11,7 +11,7 @@ tokio = { version = "1.26.0", features = ["macros", "rt", "rt-multi-thread"], de
 tower = { version = "0.4.13", default-features = false }
 tui = { version = "0.19.0", git = "https://github.com/jiripospisil/tui-rs.git", rev = "81d077564e8e8058", default-features = false , features = ["crossterm"] }
 crossterm = { version = "0.26.1", features = ["event-stream"], default-features = false }
-futures = { version = "0.3.27", default-features = false }
+futures = { version = "0.3.30", default-features = false }
 parking_lot = { version = "0.12.1", default-features = false }
 itertools = { version = "0.12.1", default-features = false, features = ["use_std"] }
 chrono = { version = "0.4.35", default-features = false }
