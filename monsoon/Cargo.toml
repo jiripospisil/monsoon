@@ -18,5 +18,5 @@ tower-service = { version = "0.3.2", default-features = false }
 
 [dev-dependencies]
 cli-table = "0.4.7"
-tokio = { version = "1.26.0", default-features = false, features = ["macros", "rt", "rt-multi-thread"] }
+tokio = { version = "1.29.1", default-features = false, features = ["macros", "rt", "rt-multi-thread"] }
 tower = { version = "0.4.13", default-features = false, features = ["util", "limit"] }
